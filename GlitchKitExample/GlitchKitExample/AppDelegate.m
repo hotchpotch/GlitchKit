@@ -14,6 +14,7 @@
 {
     // Override point for customization after application launch.
     [UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeRight;
+    [UIApplication sharedApplication].statusBarHidden = YES;
     return YES;
 }
 							
