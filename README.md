@@ -1,6 +1,6 @@
 # GlitchKit - Glitch on image in Objective-C
 
-![before glitch](https://dl.dropboxusercontent.com/u/980764/images/glitch1.png)
+![before glitch](https://dl.dropboxusercontent.com/u/980764/images/glitch_before.png)
 
 ```objc
 #import "GlitchKit.h"
@@ -9,7 +9,7 @@
 [uiImageView glitch];
 ```
 
-![after glitch](https://dl.dropboxusercontent.com/u/980764/images/glitch2.png)
+![after glitch](https://dl.dropboxusercontent.com/u/980764/images/glitch1.png)
 
 ```objc
 // apply custom glitch
@@ -18,7 +18,7 @@
 }];
 ```
 
-![after glitch3](https://dl.dropboxusercontent.com/u/980764/images/glitchr3.png)
+![after glitch3](https://dl.dropboxusercontent.com/u/980764/images/glitch2.png)
 
 
 ## GettingStarted
