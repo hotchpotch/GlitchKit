@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
   s.license      = 'MIT'
+  s.license      = {type: 'MIT', file: 'LICENSE.txt'}
   s.author       = { "Yuichi Tateno" => "hotchpotch@NOSPAMgmail.com" }
   s.platform     = :ios
 
