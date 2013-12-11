@@ -20,14 +20,11 @@
 
 ![after glitch3](https://dl.dropboxusercontent.com/u/980764/images/glitch2.png)
 
-
-## GettingStarted
-
-### Installation
+## Installation
 
 
 ```
-# in your Podfile
-pod 'GlitchKit', git: 'https://github.com/hotchpotch/GlitchKit'
+# Podfile
+pod 'GlitchKit'
 ```
 
