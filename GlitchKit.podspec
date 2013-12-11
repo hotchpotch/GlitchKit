@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = '5.0'
   # s.osx.deployment_target = '10.7'
 
-  s.source       = { git: "https://github.com/hotchpotch/GlitchKit.git", tag: '0.0.2' }
+  s.source       = { git: "https://github.com/hotchpotch/GlitchKit.git", tag: s.version.to_s }
   s.source_files = 'GlitchKit/*.{h,m}'
   s.requires_arc = true
 
