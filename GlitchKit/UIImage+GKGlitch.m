@@ -29,7 +29,11 @@
 {
     NSData* imageData = [[NSData alloc] initWithData:UIImageJPEGRepresentation(self, 1.0)];
     NSUInteger const length = [imageData length];
-    Byte* bytes = (Byte*)malloc(length);
+    Byte* bytes = NULL;
+    if (bytes != NULL) {
+        free(bytes);
+    }
+    bytes = (Byte*)malloc(length);
     memcpy(bytes, [imageData bytes], length);
     
     for (int i = 0; i < length; i++) {
@@ -39,7 +43,12 @@
             bytes[i] = b;
         }
     }
-    return [NSData dataWithBytes:bytes length:length];
+    NSData* returnImageData = [NSData dataWithBytes:bytes length:length];
+    if (bytes != NULL) {
+        free(bytes);
+        bytes = NULL;
+    }
+    return returnImageData;
 }
 
 
